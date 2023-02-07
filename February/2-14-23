@@ -1,0 +1,17 @@
+8 kyu
+Remove First and Last Character
+
+//Problem
+It's pretty straightforward. 
+Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. 
+You don't have to worry with strings with less than two characters.
+P-make a function that removes letters from a string
+R-return a string after deleting the first and last letter or character
+E- removeChar('place')==( 'lac');
+P- use the function .slice method
+
+
+//Solution
+function removeChar(str) {
+    return str.slice(1, -1);
+  }
