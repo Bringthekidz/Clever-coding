@@ -1,0 +1,11 @@
+8 kyu
+Reversed Strings[Refractor]
+P- take a string 
+R- and reverse the letters
+E- coffee-eeffoc
+P-
+
+//Solution
+function solution(str){
+  return str.split('').reverse().join('');
+}
