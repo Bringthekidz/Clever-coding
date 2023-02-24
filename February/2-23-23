@@ -1,0 +1,15 @@
+#double digits
+//Problem
+8 kyu: DNA to RNA Conversion
+
+Create a function which translates a given DNA string into RNA.
+P-
+R-return
+E_
+P-
+
+//Solution
+
+function DNAtoRNA(dna){
+    return dna.replace(/T/g, 'U');
+  }
